@@ -9,3 +9,15 @@
 #
 # > 120
 #
+
+def factorial(num)
+  array = []
+  n = 1
+  while n <= num
+    array.push(n)
+    n += 1
+  end
+  puts array.reduce(:*)
+end
+
+factorial(5)

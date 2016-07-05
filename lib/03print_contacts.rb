@@ -12,8 +12,18 @@
 #
 # Use the contacts below
 
-contacts = {
-  Brian: '333-333-3333',
-  Lenny: '444-444-4444',
-  Daniel: '777-777-7777'
-}
+  contacts = {
+    Brian: '333-333-3333',
+    Lenny: '444-444-4444',
+    Daniel: '777-777-7777'
+  }
+
+def print_contacts(contacts)
+  puts 'Brian has a phone number of '  + contacts[:Brian].to_s
+  puts 'Lenny has a phone number of '  + contacts[:Lenny].to_s
+  puts 'Daniel has a phone number of '  + contacts[:Daniel].to_s
+end
+
+print_contacts(contacts)
+
+
